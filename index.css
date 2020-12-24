@@ -19,3 +19,29 @@ main{
    min-height: 100vh;
    background-image: linear-gradient(to bottom,rgba(21, 24, 5, 0.712),rgba(87, 100, 28, 0.534));
 }
+
+.dollar-kh{
+  color: rgb(14, 143, 10);
+  }
+.main-text{
+  color: rgb(179, 240, 176);
+  size: 40px;
+  font-weight: 400;
+  text-align: right;
+  margin-right:30px;
+  padding: 5px 20px 5px 0;
+  font-size: 30px;
+  box-shadow: 3px,6px,rgb(194, 194, 206);
+  background-color: rgba(158, 245, 194, 0.295);
+  border-radius: 20px;
+  
+}
+.main-page{
+  text-align: right;
+  size: 20px;
+  font-weight: 250;
+  margin-right:150px;
+  padding-top: 10px;
+  font-style:normal;
+  font-size: 16px;
+}
