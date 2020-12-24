@@ -1,0 +1,21 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+.app{
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+  background-position:bottom;
+  transition: 0.4 ease-out;
+}
+
+main{
+   min-height: 100vh;
+   background-image: linear-gradient(to bottom,rgba(21, 24, 5, 0.712),rgba(87, 100, 28, 0.534));
+}
