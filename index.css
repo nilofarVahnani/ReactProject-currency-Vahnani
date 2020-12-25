@@ -20,9 +20,10 @@ main{
    background-image: linear-gradient(to bottom,rgba(21, 24, 5, 0.712),rgba(87, 100, 28, 0.534));
 }
 
-.dollar-kh{
-  color: rgb(14, 143, 10);
-  }
+
+
+ 
+
 .main-text{
   color: rgb(179, 240, 176);
   size: 40px;
@@ -37,11 +38,35 @@ main{
   
 }
 .main-page{
-  text-align: right;
+   text-align: right;
   size: 20px;
   font-weight: 250;
   margin-right:150px;
   padding-top: 10px;
   font-style:normal;
   font-size: 16px;
+}
+
+.line{
+     color:rgba(198, 221, 116, 0.932);
+      margin-left: 170px;
+      
+    
+}
+
+div.title {
+  float: right;
+  width: fit-content;
+  
+ 
+}
+div.buy {
+  color: rgb(21, 209, 14);
+  width: calc(100% - 200px);
+  
+}
+div.sell {
+  color: rgb(255, 16, 16);
+  width: calc(100% - 200px);
+  
 }
