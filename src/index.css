@@ -9,7 +9,7 @@ body{
 }
 
 .app{
-  background-image: url('./assets/background.jpg');
+  background-image: url('./assets/back3.jpg');
   background-size: cover;
   background-position:bottom;
   transition: 0.4 ease-out;
@@ -17,5 +17,60 @@ body{
 
 main{
    min-height: 100vh;
-   background-image: linear-gradient(to bottom,rgba(21, 24, 5, 0.712),rgba(87, 100, 28, 0.534));
+   background-image: linear-gradient(to bottom,rgba(7, 3, 109, 0.726),rgba(201, 208, 223, 0.123));
+
 }
+
+
+
+ 
+
+.main-text{
+  color: rgb(179, 240, 176);
+  size: 40px;
+  font-weight: 400;
+  text-align: right;
+  margin-right:30px;
+  padding: 5px 20px 5px 0;
+  font-size: 30px;
+  box-shadow: 3px,6px,rgb(194, 194, 206);
+  background-color: rgba(158, 245, 194, 0.295);
+  border-radius: 20px;
+  
+}
+.main-page{
+  text-align: right;
+  size: 20px;
+  font-weight: 250;
+  margin-right:30px;
+  padding-top: 10px;
+  font-style:normal;
+  font-size: 16px;
+  
+}
+
+.line{
+     color:rgba(198, 221, 116, 0.932);
+      margin-left: 1000px;
+      
+    
+}
+
+div.title {
+  float: right;
+  width: fit-content;
+  color: rgb(250, 249, 248);
+  margin-right: 20px;
+  text-align: right;
+}
+div.buy {
+  color: rgb(2, 255, 15);
+  width: calc(100% - 200px);
+ 
+  
+}
+div.sell {
+  color: rgb(240, 0, 0);
+  width: calc(100% - 200px);
+}
+
