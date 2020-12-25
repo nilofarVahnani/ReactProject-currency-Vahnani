@@ -34,8 +34,9 @@ function App() {
         <hr className="line"/>
 
         <div>
-        <div class="title"> {currency.sana.data[1].title}</div>
-        <div class="buy"> {currency.sana.data[1].p}</div></div>
+        <div class="title"> {currency.sana.data[1].title}
+        </div>
+        <div class="buy"> {currency.sana.data[1].p}</div> </div>
         <div>
         <div class="title"> {currency.sana.data[17].title}</div>
         <div class="sell"> {currency.sana.data[17].p}</div></div>
